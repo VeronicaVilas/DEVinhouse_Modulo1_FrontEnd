@@ -1,0 +1,183 @@
+:root {
+    font-family: Architects Daughter;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: Dancing Script;
+}
+
+body {
+    background-image: url(../[M1S03]\ Ex\ 06/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html, body, div, header, main, footer, form, p, span, h1, h2, h3, h4, h5, h6, a, ul, ol, li {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+  
+header, main, footer {
+    padding: 16px;
+}
+  
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #341750;
+}
+  
+.logo-text {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+  
+nav {
+display: flex;
+gap: 8px;
+}
+  
+nav > a {
+    color: white;
+    text-decoration: none;
+}
+  
+nav > a:hover {
+    text-decoration: underline;
+}
+  
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+  
+#cards-container {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+  
+#cards-container > li {
+    display: flex;
+    padding: 8px;
+    gap: 8px;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px solid white;
+    background-color: white;
+}
+  
+#cards-container > li > img {
+    width: 320px;
+    border-radius: 8px;
+    aspect-ratio: 4/3;
+    display: block;
+    background-color: white;
+}
+  
+#cards-container > li > h3 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-style: italic;
+    color: #BFA6D0;
+}
+  
+#cards-container > li > .card-details {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+}
+  
+#cards-container > li > .card-details > .price {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+  
+#cards-container > li > .card-details > .price > h4 {
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+  
+#cards-container > li > .card-details > .price > p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+  
+#cards-container > li > .card-details > a {
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    background-color: #BFA6D0;
+    border-color:  #BFA6D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+form {
+    width:1046px;
+    max-width: calc(100vw - 64px);
+    display:flex;
+    align-items: center;
+    gap:10px;
+    color:Black;
+    font-weight:bold;
+    flex-wrap:wrap;
+    background-color: white;
+    border-radius: 15px;
+    width:78%;
+    padding: 20px;
+}
+  
+form input {
+    border-color: #BFA6D0;
+    border-radius: 8px;
+    padding: 8px
+}
+  
+form input[type="text"] {
+    flex-grow: 1;
+}
+  
+form input[type="date"] {
+    min-width: 128px;
+}
+  
+form button[type="submit"] {
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    background-color: #BFA6D0;
+    border-color:  #BFA6D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
