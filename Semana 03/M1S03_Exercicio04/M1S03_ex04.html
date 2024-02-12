@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio 04</title>
+  <link rel="stylesheet" href="./src/css/M1S03_ex04.css" />
+  <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon" />
+  </style>
+</head>
+<body>
+  <header>
+      <h1>Cadastre-se<br>E entre para o nosso time</br></h1>
+      <img src="./assets/image/image-register.png" alt="imagem de registro" />
+  </header>
+  <main>
+    <div class="form-container">
+      <h1>Preencha os dados</h1>
+      <form>
+        <section>
+          <div class="form-container-textfield">
+            <label for="Nome">Nome:</label>
+            <input type="text" name="Nome" placeholder="Informe o seu Nome" />
+            <label for="id-data-nascimento">Data de Nascimento:</label>
+          </div>
+          <div class="form-container-textfield">
+            <input type="date" id="id-data-nascimento" name="data-nascimento" placeholder="dd-mm-aaaa"/>
+            <label for="CPF">CPF:</label>
+          </div>
+          <div class="form-container-textfield">
+            <input type="text" name="CPF" placeholder="Informe o seu CPF" />
+            <label for="Município">Município:</label>
+          </div>
+          <div class="form-container-textfield">
+            <select id="Município" name="Município">
+              <option value="Florianópolis">Florianópolis</option>
+              <option value="">Salvador</option>
+            </select>
+          </div>
+        </section>
+        <button type="submit">Finalizar</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
