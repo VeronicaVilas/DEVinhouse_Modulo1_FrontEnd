@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-generali {
+    background-image: linear-gradient(to right,black,#06080B,#0C1116,#10171E,#161F28);
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: black;
+}
+
+.page-container {
+    width: 100%;
+    min-height: 200vh;
+}
+
+.navbar {
+    width: 100%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+    padding: 16px 48px;
+}
+
+#logo {
+    margin-right: auto;
+    color: red;
+}
+
+#select-languages {
+    height: 32px;
+    width: 96px;
+    background-color: transparent;
+    color: white
+}
+
+#select-languages > option {
+    background-color:black;
+}
+
+#login {
+    height: 32px;
+    width: 80px;
+    background-color: red;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.story-card {
+    color:white;
+    min-width: 954px;
+    height: 495px;
+    display:flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.form-container {
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 155px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.form-container-research {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-research {
+    width: 460px;
+    font-size: 16px;
+    padding: 1.4rem 1rem;
+}
+
+form button[type="submit"] {
+    padding: 1.2rem;
+    color: white;
+    background-color: red;
+    border-style: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+hr {
+    border: 2px solid #212F3D;
+}
+
+.story-card-movie {
+    color:white;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+    padding: 16px 48px;
+}
+
+h5, h6, p {
+    text-align: center;
+    padding: 10px 0;
+}
+h5, h6, h7 {
+    font-size: 32px;
+}
+
+.story-card-phone {
+    color:white;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+    padding: 16px 48px;
+}
+
+.text-benefits {
+    color:white;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 48px;
+}
+
+h8, h9, h10, h11 {
+    text-align:  left;
+    justify-content: left;
+}
+
+table {
+    color:white;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 10px;
+    margin: auto;
+    width:90%;
+    padding: 16px 48px;
+}
+
+
+
+
+
+
