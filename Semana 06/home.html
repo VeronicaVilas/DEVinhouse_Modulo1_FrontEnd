@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Listagem de reservas</title>
+  <link rel="stylesheet" href="./src/css/styles.css" />
+</head>
+<body>
+  <h2 class="title-reservas">Gerenciamento de Reservas</h2>
+  <div class="button-container">
+    <button class="button-logout" id="logout">Logout</button>
+    <button class="button-home" id="cadastrar">Cadastrar Reserva</button>
+  </div>
+  <div class="reservas-container">
+    <table class="tabela-reservas" border="1">
+      <thead>
+        <tr>
+          <th>N. Quarto</th>
+          <th>Cliente</th>
+          <th class="linhaCpf">CPF</th>
+          <th>Período</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody id="corpo-tabela"></tbody>
+    </table>
+  </div>
+  <script src="./src/scripts/home.js" type="module"></script>
+</body>
+</html>

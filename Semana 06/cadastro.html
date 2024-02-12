@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de reservas</title>
+  <link rel="stylesheet" href="./src/css/styles.css" />
+</head>
+<body>
+  <div class="container">
+		<div class="img-cadastro">
+      <h2 class="title"> Faça uma 
+        <br>
+        <strong>NOVA RESERVA</strong></h2>
+			<img src="./assets/imagens/Hotel Booking.png" alt="Imagem de reserva">
+		</div>
+		<div class="login-container">
+      <div class="login-container">
+        <form  id="form-add" class="main-cadastro">
+          <label for="n-quarto">
+            <span>N° Quarto:</span>
+            <select  class="input-form" id="n-quarto">
+              <option value="201">Quarto 201</option>
+              <option value="202">Quarto 202</option>
+              <option value="203">Quarto 203</option>
+              <option value="204">Quarto 204</option>
+            </select>
+          </label>
+          <label for="nome">
+            <span>Nome Completo:</span>
+            <input class="input-form" type="text" id="nome">
+          </label>
+          <label for="cpf">
+            <span>CPF:</span>
+            <input class="input-form" type="text" id="cpf">
+          </label>
+          <label for="check-in">
+            <span>Data de entrada:</span>
+            <input class="input-form" type="date" id="check-in">
+          </label>
+          <label for="check-out">
+            <span>Data de Saida:</span>
+            <input class="input-form" type="date" id="check-out">
+          </label>
+          <button type="submit" id="botaologin" class="button">Cadastrar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="./src/scripts/cadastro.js"></script>
+</body>
+</html>
